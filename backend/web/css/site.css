@@ -1,0 +1,199 @@
+
+/* by default */
+/*-------------------------------------------*/
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+/*-------------------------------------------*/
+
+
+
+/* custom rules: */
+/*-------------------------------------------*/
+
+/* addmarks.php view */
+
+.author {
+    cursor: pointer;
+}
+
+.add-lesson-block {
+    display: inline;
+    margin-left: 150px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btns {
+    width: 150px;
+}
+
+.button-add-lesson {
+    
+}
+
+.container {
+    width: 80%;
+}
+
+.date-span {
+    margin-left: 50px;
+}
+
+.hasDatepicker {
+    height: 34px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.pupil-mark,.date-redact {
+    border: 0;
+    background-color: inherit;
+    text-align: center;
+}
+.pupil-mark:hover {
+    background-color: #e0f2f7;
+    cursor: pointer;
+}
+
+.marks-tab-col {
+    width: 75%;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.marks-dates {
+    border: 1px solid;
+}
+
+.month-select {
+    width: 150px;
+    margin-top: 35px;
+    display: inline-block;
+}
+
+.option-buttons {
+    display: inline-block;
+    margin-top: 100px;
+}
+
+.pupil-name {
+    min-width: 150px;
+    height: 30px;
+}
+
+.subject-button {
+    margin-bottom: 15px;
+}
+
+.subjects-buttons-col {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+}
+
+.theme {
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-bottom: 5%;
+}
+
+.theme-content {
+    width: 75%;
+    height: 50px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
